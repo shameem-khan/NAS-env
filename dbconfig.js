@@ -5,7 +5,7 @@ dotenv.config();
 const { Pool } = pg
  
 const db = new Pool({
-  host: process.env.DBConnLink_ext,
+  host: process.env.DBConnLink_int,
   user: process.env.DBuser,
   password: process.env.DBpass,
   port: process.env.DBport,
