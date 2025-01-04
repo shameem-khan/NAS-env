@@ -12,7 +12,6 @@ const db = new Pool({
   database: "nas_test",
   max: 20,
   idle_timeout: 5,
-  ssl: true
 });
 
 export default db;
